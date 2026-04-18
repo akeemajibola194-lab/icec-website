@@ -1,0 +1,504 @@
+
+
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="nav-logo-wrap">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="48" stroke="#C9A84C" stroke-width="3" fill="#8B1A1A"/>
+            <text x="50" y="38" text-anchor="middle" fill="#C9A84C" font-size="18" font-weight="900" font-family="serif">ICEC</text>
+            <path d="M20 55 Q50 70 80 55" stroke="#C9A84C" stroke-width="2" fill="none"/>
+            <text x="50" y="72" text-anchor="middle" fill="white" font-size="7" font-family="sans-serif" font-weight="600">CONTINUING EDUCATION</text>
+          </svg>
+        </div>
+        <div class="nav-brand-text">
+          <strong>ICEC</strong>
+          <span>A New Dawn in Learning</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#programs">Programs</a>
+        <a href="#why">Why ICEC</a>
+        <a href="#testimonials">Results</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+      </div>
+      <div class="nav-cta">
+        <a href="https://wa.me/2348025050576" class="btn btn-wa" style="padding:10px 20px;font-size:14px;">WhatsApp</a>
+        <a href="#contact" class="btn btn-primary" style="padding:10px 20px;font-size:14px;">Enroll Now</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#programs" onclick="toggleMenu()">Programs</a>
+  <a href="#why" onclick="toggleMenu()">Why ICEC</a>
+  <a href="#testimonials" onclick="toggleMenu()">Results</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="#blog" onclick="toggleMenu()">Blog</a>
+  <a href="https://wa.me/2348025050576" class="btn btn-wa" style="text-align:center;justify-content:center;">Chat on WhatsApp</a>
+  <a href="#contact" class="btn btn-primary" style="text-align:center;justify-content:center;" onclick="toggleMenu()">Enroll Now</a>
+</div>
+<section class="hero" id="home">
+  <div class="hero-geo"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">Ikorodu's #1 Coaching Centre</div>
+        <h1>Pass Your Exams.<br/><em>Secure Your Future.</em></h1>
+        <p class="hero-sub">Expert coaching for JAMB, WAEC, NECO, GCE &amp; Post-UTME in Ikorodu, Lagos. Physical &amp; E-learning available.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-gold" style="font-size:16px;padding:16px 34px;">✏️ Enroll Now – Free Consultation</a>
+          <a href="https://wa.me/2348025050576" class="btn btn-outline" style="font-size:16px;padding:16px 34px;">💬 Chat on WhatsApp</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>500+</strong><span>Students Trained</span></div>
+          <div class="hero-stat"><strong>90%</strong><span>Success Rate</span></div>
+          <div class="hero-stat"><strong>10+</strong><span>Programs Offered</span></div>
+        </div>
+      </div>
+      <div class="hero-visual fade-in">
+        <div class="hero-img-wrap">
+          <div class="hero-img-placeholder">
+            <p style="color:rgba(255,255,255,0.5);font-size:14px;">🎓 ICEC — A New Dawn in Learning</p>
+          </div>
+        </div>
+        <div class="hero-card-float">
+          <div class="icon">🎓</div>
+          <div><strong>Enrolment Open</strong><span>New batch starting soon!</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="exam-scroll-bar">
+  <div class="exam-scroll-track">
+    <span>JAMB</span><span>WAEC</span><span>NECO</span><span>GCE</span><span>Post-UTME</span>
+    <span>JUPEB</span><span>IJMB</span><span>SAT</span><span>TOEFL</span><span>ICAN</span>
+    <span>JAMB</span><span>WAEC</span><span>NECO</span><span>GCE</span><span>Post-UTME</span>
+    <span>JUPEB</span><span>IJMB</span><span>SAT</span><span>TOEFL</span><span>ICAN</span>
+  </div>
+</div>
+<section class="section why-section" id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div class="fade-in">
+        <span class="section-label">Our Advantage</span>
+        <h2 class="section-title">Why Students Choose <span>ICEC</span></h2>
+        <p class="section-subtitle">Experienced tutors, modern facilities, and a proven methodology for every student's success.</p>
+        <div class="why-features">
+          <div class="why-feature"><div class="why-feature-icon">🏫</div><h4>Clean Environment</h4><p>Serene, distraction-free classrooms designed for focused learning.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">📚</div><h4>Expert Tutors</h4><p>Seasoned and competent academic tutors with proven track records.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">💻</div><h4>E-Learning Access</h4><p>Physical + online learning options to suit every student's lifestyle.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">🔬</div><h4>ICT &amp; Science Labs</h4><p>ICT classes, science practicals, and a fully equipped library.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">🌍</div><h4>International Admissions</h4><p>We help secure admission in UK, Europe, and Asia universities.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">⭐</div><h4>90% Pass Rate</h4><p>Outstanding results across all exam programmes, year after year.</p></div>
+        </div>
+      </div>
+      <div class="why-visual fade-in">
+        <div class="why-img-main"><div style="text-align:center;padding:40px;color:rgba(255,255,255,0.4);font-size:14px;">🏫 ICEC Campus</div></div>
+        <div class="why-badge-float"><strong>A+ Results</strong><span>Every Session</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid fade-in">
+      <div class="stat-item"><div class="stat-num" data-target="500">0</div><div class="stat-label">Students Trained</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="90">0</div><div class="stat-label">% Exam Pass Rate</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="10">0</div><div class="stat-label">Programs Offered</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="5">0</div><div class="stat-label">Years of Excellence</div></div>
+    </div>
+  </div>
+</section>
+<section class="section programs-section" id="programs">
+  <div class="container">
+    <span class="section-label">What We Offer</span>
+    <h2 class="section-title">Our <span>Programs</span></h2>
+    <p class="section-subtitle">Comprehensive exam preparation and advanced academic programmes.</p>
+    <div class="programs-tabs" style="margin-top:28px;">
+      <button class="tab-btn active" onclick="showTab('core',this)">Core Programs</button>
+      <button class="tab-btn" onclick="showTab('advanced',this)">Advanced Programs</button>
+    </div>
+    <div id="tab-core" class="programs-grid fade-in">
+      <div class="program-card"><div class="program-icon">📝</div><h3>JAMB</h3><p>Comprehensive UTME preparation covering all subjects with past questions and mock exams.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🎓</div><h3>WAEC</h3><p>Full WASSCE coverage with practicals, past papers, and subject-specific tutoring.</p><div class="program-duration">⏱ 6–9 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">📖</div><h3>NECO</h3><p>NECO exam coaching with intensive revision sessions and targeted exam strategies.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">✏️</div><h3>GCE</h3><p>O-Level GCE prep for all core subjects. Ideal for school leavers needing extra sittings.</p><div class="program-duration">⏱ 3–4 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🏛️</div><h3>Post-UTME</h3><p>University-specific screening preparation to complement your JAMB score.</p><div class="program-duration">⏱ 4–6 Weeks</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+    </div>
+    <div id="tab-advanced" class="programs-grid fade-in" style="display:none;">
+      <div class="program-card"><div class="program-icon">🎓</div><h3>JUPEB</h3><p>Joint Universities Preliminary Examinations Board — direct entry to 200 level.</p><div class="program-duration">⏱ 9–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">📚</div><h3>IJMB</h3><p>Interim Joint Matriculation Board — A-level alternative for advanced university entry.</p><div class="program-duration">⏱ 9–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🌎</div><h3>SAT</h3><p>US college entrance exam coaching — Math, Evidence-Based Reading and Writing.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🗣️</div><h3>TOEFL</h3><p>English language proficiency preparation for international university admission.</p><div class="program-duration">⏱ 2–3 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">💼</div><h3>ICAN</h3><p>Institute of Chartered Accountants of Nigeria professional certification coaching.</p><div class="program-duration">⏱ 6–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+    </div>
+  </div>
+</section>
+
+
+
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="nav-logo-wrap">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="48" stroke="#C9A84C" stroke-width="3" fill="#8B1A1A"/>
+            <text x="50" y="38" text-anchor="middle" fill="#C9A84C" font-size="18" font-weight="900" font-family="serif">ICEC</text>
+            <path d="M20 55 Q50 70 80 55" stroke="#C9A84C" stroke-width="2" fill="none"/>
+            <text x="50" y="72" text-anchor="middle" fill="white" font-size="7" font-family="sans-serif" font-weight="600">CONTINUING EDUCATION</text>
+          </svg>
+        </div>
+        <div class="nav-brand-text">
+          <strong>ICEC</strong>
+          <span>A New Dawn in Learning</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#programs">Programs</a>
+        <a href="#why">Why ICEC</a>
+        <a href="#testimonials">Results</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+      </div>
+      <div class="nav-cta">
+        <a href="https://wa.me/2348025050576" class="btn btn-wa" style="padding:10px 20px;font-size:14px;">WhatsApp</a>
+        <a href="#contact" class="btn btn-primary" style="padding:10px 20px;font-size:14px;">Enroll Now</a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#programs" onclick="toggleMenu()">Programs</a>
+  <a href="#why" onclick="toggleMenu()">Why ICEC</a>
+  <a href="#testimonials" onclick="toggleMenu()">Results</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="#blog" onclick="toggleMenu()">Blog</a>
+  <a href="https://wa.me/2348025050576" class="btn btn-wa" style="text-align:center;justify-content:center;">Chat on WhatsApp</a>
+  <a href="#contact" class="btn btn-primary" style="text-align:center;justify-content:center;" onclick="toggleMenu()">Enroll Now</a>
+</div>
+<section class="hero" id="home">
+  <div class="hero-geo"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">Ikorodu's #1 Coaching Centre</div>
+        <h1>Pass Your Exams.<br/><em>Secure Your Future.</em></h1>
+        <p class="hero-sub">Expert coaching for JAMB, WAEC, NECO, GCE &amp; Post-UTME in Ikorodu, Lagos. Physical &amp; E-learning available.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-gold" style="font-size:16px;padding:16px 34px;">✏️ Enroll Now – Free Consultation</a>
+          <a href="https://wa.me/2348025050576" class="btn btn-outline" style="font-size:16px;padding:16px 34px;">💬 Chat on WhatsApp</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>500+</strong><span>Students Trained</span></div>
+          <div class="hero-stat"><strong>90%</strong><span>Success Rate</span></div>
+          <div class="hero-stat"><strong>10+</strong><span>Programs Offered</span></div>
+        </div>
+      </div>
+      <div class="hero-visual fade-in">
+        <div class="hero-img-wrap">
+          <div class="hero-img-placeholder">
+            <p style="color:rgba(255,255,255,0.5);font-size:14px;">🎓 ICEC — A New Dawn in Learning</p>
+          </div>
+        </div>
+        <div class="hero-card-float">
+          <div class="icon">🎓</div>
+          <div><strong>Enrolment Open</strong><span>New batch starting soon!</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="exam-scroll-bar">
+  <div class="exam-scroll-track">
+    <span>JAMB</span><span>WAEC</span><span>NECO</span><span>GCE</span><span>Post-UTME</span>
+    <span>JUPEB</span><span>IJMB</span><span>SAT</span><span>TOEFL</span><span>ICAN</span>
+    <span>JAMB</span><span>WAEC</span><span>NECO</span><span>GCE</span><span>Post-UTME</span>
+    <span>JUPEB</span><span>IJMB</span><span>SAT</span><span>TOEFL</span><span>ICAN</span>
+  </div>
+</div>
+<section class="section why-section" id="why">
+  <div class="container">
+    <div class="why-grid">
+      <div class="fade-in">
+        <span class="section-label">Our Advantage</span>
+        <h2 class="section-title">Why Students Choose <span>ICEC</span></h2>
+        <p class="section-subtitle">Experienced tutors, modern facilities, and a proven methodology for every student's success.</p>
+        <div class="why-features">
+          <div class="why-feature"><div class="why-feature-icon">🏫</div><h4>Clean Environment</h4><p>Serene, distraction-free classrooms designed for focused learning.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">📚</div><h4>Expert Tutors</h4><p>Seasoned and competent academic tutors with proven track records.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">💻</div><h4>E-Learning Access</h4><p>Physical + online learning options to suit every student's lifestyle.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">🔬</div><h4>ICT &amp; Science Labs</h4><p>ICT classes, science practicals, and a fully equipped library.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">🌍</div><h4>International Admissions</h4><p>We help secure admission in UK, Europe, and Asia universities.</p></div>
+          <div class="why-feature"><div class="why-feature-icon">⭐</div><h4>90% Pass Rate</h4><p>Outstanding results across all exam programmes, year after year.</p></div>
+        </div>
+      </div>
+      <div class="why-visual fade-in">
+        <div class="why-img-main"><div style="text-align:center;padding:40px;color:rgba(255,255,255,0.4);font-size:14px;">🏫 ICEC Campus</div></div>
+        <div class="why-badge-float"><strong>A+ Results</strong><span>Every Session</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid fade-in">
+      <div class="stat-item"><div class="stat-num" data-target="500">0</div><div class="stat-label">Students Trained</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="90">0</div><div class="stat-label">% Exam Pass Rate</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="10">0</div><div class="stat-label">Programs Offered</div></div>
+      <div class="stat-item"><div class="stat-num" data-target="5">0</div><div class="stat-label">Years of Excellence</div></div>
+    </div>
+  </div>
+</section>
+<section class="section programs-section" id="programs">
+  <div class="container">
+    <span class="section-label">What We Offer</span>
+    <h2 class="section-title">Our <span>Programs</span></h2>
+    <p class="section-subtitle">Comprehensive exam preparation and advanced academic programmes.</p>
+    <div class="programs-tabs" style="margin-top:28px;">
+      <button class="tab-btn active" onclick="showTab('core',this)">Core Programs</button>
+      <button class="tab-btn" onclick="showTab('advanced',this)">Advanced Programs</button>
+    </div>
+    <div id="tab-core" class="programs-grid fade-in">
+      <div class="program-card"><div class="program-icon">📝</div><h3>JAMB</h3><p>Comprehensive UTME preparation covering all subjects with past questions and mock exams.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🎓</div><h3>WAEC</h3><p>Full WASSCE coverage with practicals, past papers, and subject-specific tutoring.</p><div class="program-duration">⏱ 6–9 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">📖</div><h3>NECO</h3><p>NECO exam coaching with intensive revision sessions and targeted exam strategies.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">✏️</div><h3>GCE</h3><p>O-Level GCE prep for all core subjects. Ideal for school leavers needing extra sittings.</p><div class="program-duration">⏱ 3–4 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🏛️</div><h3>Post-UTME</h3><p>University-specific screening preparation to complement your JAMB score.</p><div class="program-duration">⏱ 4–6 Weeks</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+    </div>
+    <div id="tab-advanced" class="programs-grid fade-in" style="display:none;">
+      <div class="program-card"><div class="program-icon">🎓</div><h3>JUPEB</h3><p>Joint Universities Preliminary Examinations Board — direct entry to 200 level.</p><div class="program-duration">⏱ 9–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">📚</div><h3>IJMB</h3><p>Interim Joint Matriculation Board — A-level alternative for advanced university entry.</p><div class="program-duration">⏱ 9–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🌎</div><h3>SAT</h3><p>US college entrance exam coaching — Math, Evidence-Based Reading and Writing.</p><div class="program-duration">⏱ 3–6 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">🗣️</div><h3>TOEFL</h3><p>English language proficiency preparation for international university admission.</p><div class="program-duration">⏱ 2–3 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+      <div class="program-card"><div class="program-icon">💼</div><h3>ICAN</h3><p>Institute of Chartered Accountants of Nigeria professional certification coaching.</p><div class="program-duration">⏱ 6–12 Months</div><a href="#contact" class="btn btn-primary">Apply Now</a></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section testimonials-section" id="testimonials">
+  <div class="container">
+    <span class="section-label">Student Stories</span>
+    <h2 class="section-title">Real Results, <span>Real Students</span></h2>
+    <p class="section-subtitle">Thousands of students have transformed their academic futures with ICEC.</p>
+    <div class="testimonials-grid" style="margin-top:48px;">
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">I failed JAMB twice before joining ICEC. After just 4 months of tutoring here, I scored 287 and got admitted to UNILAG. The tutors here are simply exceptional!</p><div class="testimonial-author"><div class="author-avatar">AO</div><div class="author-info"><strong>Adewale Okonkwo</strong><span>JAMB 2024 — Admitted to UNILAG</span></div></div></div>
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">ICEC helped me get 8 A's in WAEC. The science practicals and ICT support were top class. I'm now in my first year studying Medicine at LUTH. Thank you ICEC!</p><div class="testimonial-author"><div class="author-avatar">CF</div><div class="author-info"><strong>Chiamaka Festus</strong><span>WAEC 2023 — 8 A's | Medicine, LUTH</span></div></div></div>
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">My son struggled with mathematics for years. After enrolling at ICEC, he not only passed NECO but scored an A. The learning environment here is calm and focused.</p><div class="testimonial-author"><div class="author-avatar">BL</div><div class="author-info"><strong>Mrs. Blessing Lawal</strong><span>Parent — NECO 2024</span></div></div></div>
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">I used ICEC to prepare for my JUPEB exams and gained direct entry into 200 level Engineering. The small class sizes mean tutors really pay attention to each student.</p><div class="testimonial-author"><div class="author-avatar">EM</div><div class="author-info"><strong>Emmanuel Musa</strong><span>JUPEB 2023 — Direct Entry, OAU Engineering</span></div></div></div>
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">The TOEFL preparation at ICEC was incredible. I scored 102 and got a scholarship to study in Canada. If you're serious about international education, ICEC is the place.</p><div class="testimonial-author"><div class="author-avatar">KA</div><div class="author-info"><strong>Kelechi Anyanwu</strong><span>TOEFL 2024 — Scholarship, Canada</span></div></div></div>
+      <div class="testimonial-card fade-in"><div class="stars">★★★★★</div><p class="testimonial-text">As a working adult, I needed flexible options. ICEC's e-learning facility let me study at my own pace while keeping my job. I passed GCE with flying colours!</p><div class="testimonial-author"><div class="author-avatar">TO</div><div class="author-info"><strong>Taiwo Oluwaseun</strong><span>GCE Adult Learner — 2024</span></div></div></div>
+    </div>
+  </div>
+</section>
+<section class="section how-section">
+  <div class="container" style="text-align:center;">
+    <span class="section-label">Simple Process</span>
+    <h2 class="section-title">How It <span>Works</span></h2>
+    <p class="section-subtitle" style="margin:0 auto;">Three simple steps to your academic success.</p>
+    <div class="steps-grid">
+      <div class="step-card fade-in"><div class="step-num">1</div><h3>Register</h3><p>Sign up online or via WhatsApp. Our team will guide you through programme selection and get you started immediately.</p></div>
+      <div class="step-card fade-in"><div class="step-num">2</div><h3>Attend Classes</h3><p>Join physical classes in our serene Ikorodu campus or access our e-learning platform from anywhere.</p></div>
+      <div class="step-card fade-in"><div class="step-num">3</div><h3>Pass with Confidence</h3><p>Sit your exams fully prepared, backed by mock tests, expert feedback, and the proven ICEC methodology.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section facilities-section">
+  <div class="container">
+    <span class="section-label">Our Campus</span>
+    <h2 class="section-title">World-Class <span>Facilities</span></h2>
+    <p class="section-subtitle">Our campus is designed to inspire learning and optimised for student success.</p>
+    <div class="facilities-grid">
+      <div class="facility-card fade-in"><div class="facility-img">🏛️<div style="position:absolute;bottom:12px;left:12px;z-index:2;color:white;font-weight:700;font-size:14px;">Lecture Hall</div></div><div class="facility-info"><h4>Comfortable Lecture Halls</h4><p>Spacious, air-conditioned halls equipped with projectors and whiteboards for effective teaching.</p></div></div>
+      <div class="facility-card fade-in"><div class="facility-img" style="background:linear-gradient(135deg,#8B1A1A,#C9A84C);">📚<div style="position:absolute;bottom:12px;left:12px;z-index:2;color:white;font-weight:700;font-size:14px;">Library</div></div><div class="facility-info"><h4>Fully Stocked Library</h4><p>Access thousands of textbooks, past questions, and study guides across all exam subjects.</p></div></div>
+      <div class="facility-card fade-in"><div class="facility-img" style="background:linear-gradient(135deg,#C9A84C,#8B5E0A);">💻<div style="position:absolute;bottom:12px;left:12px;z-index:2;color:white;font-weight:700;font-size:14px;">Computer Lab</div></div><div class="facility-info"><h4>Modern ICT Lab</h4><p>Well-equipped computer lab for ICT classes, CBT practice, and e-learning access.</p></div></div>
+    </div>
+  </div>
+</section>
+<section class="urgency-section">
+  <div class="container">
+    <h2>⚡ Limited Slots Available – Next Batch Starting Soon!</h2>
+    <p>Don't miss your chance. Secure your place in the upcoming session before it fills up.</p>
+    <div class="countdown">
+      <div class="countdown-box"><strong id="cd-days">00</strong><span>Days</span></div>
+      <div class="countdown-box"><strong id="cd-hours">00</strong><span>Hours</span></div>
+      <div class="countdown-box"><strong id="cd-mins">00</strong><span>Minutes</span></div>
+      <div class="countdown-box"><strong id="cd-secs">00</strong><span>Seconds</span></div>
+    </div>
+    <a href="#contact" class="btn btn-primary" style="font-size:17px;padding:18px 44px;">🔒 Reserve My Spot Now</a>
+  </div>
+</section>
+<section class="section faq-section">
+  <div class="container">
+    <span class="section-label">Common Questions</span>
+    <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+    <div class="faq-grid">
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">How much are the fees? <span class="arrow">▼</span></div><div class="faq-a">Fees vary by programme. Contact us on WhatsApp or call +2348025050576 for the current fee schedule. We offer flexible payment plans.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">How long do programmes run? <span class="arrow">▼</span></div><div class="faq-a">Core exam programmes run 3–9 months. Advanced programmes (JUPEB, IJMB) run 9–12 months. Short intensive courses are also available.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">What is your success rate? <span class="arrow">▼</span></div><div class="faq-a">We maintain a 90%+ pass rate across all programmes. Our students consistently achieve high scores in JAMB, WAEC, and NECO.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Do you offer online/e-learning? <span class="arrow">▼</span></div><div class="faq-a">Yes! ICEC offers both physical classes at our Bayeku campus and a full e-learning facility so you can study from home.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Can you help with university admission? <span class="arrow">▼</span></div><div class="faq-a">Absolutely. We assist students in securing admission to universities in Nigeria as well as in the UK, Europe, and Asia.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">When does the next batch start? <span class="arrow">▼</span></div><div class="faq-a">We run rolling intakes throughout the year. Contact us today to find out when the next batch for your chosen programme begins.</div></div>
+    </div>
+  </div>
+</section>
+<section class="section blog-section" id="blog">
+  <div class="container">
+    <span class="section-label">Exam Tips &amp; Guides</span>
+    <h2 class="section-title">From Our <span>Blog</span></h2>
+    <p class="section-subtitle">Free study resources, exam tips, and success guides from the ICEC team.</p>
+    <div class="blog-grid">
+      <div class="blog-card fade-in"><div class="blog-thumb">📝<div class="blog-tag">JAMB Tips</div></div><div class="blog-body"><div class="blog-date">March 2025</div><h4>How to Score 280+ in JAMB 2025: A Complete Guide</h4><p>Learn the strategies top JAMB scorers use, from time management to subject-specific techniques.</p></div></div>
+      <div class="blog-card fade-in"><div class="blog-thumb" style="background:linear-gradient(135deg,#8B1A1A,#C9A84C);">📚<div class="blog-tag">WAEC Guide</div></div><div class="blog-body"><div class="blog-date">February 2025</div><h4>WAEC 2025 Syllabus Breakdown: What You Need to Focus On</h4><p>Our tutors break down the most important topics in each subject to maximise your exam performance.</p></div></div>
+      <div class="blog-card fade-in"><div class="blog-thumb" style="background:linear-gradient(135deg,#C9A84C,#8B1A1A);">🌍<div class="blog-tag">Study Abroad</div></div><div class="blog-body"><div class="blog-date">January 2025</div><h4>How to Get a Scholarship to Study in the UK from Nigeria</h4><p>A step-by-step guide to scholarships, SAT, TOEFL, and the application process for Nigerian students.</p></div></div>
+    </div>
+  </div>
+</section>
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <span class="section-label">Get In Touch</span>
+    <h2 class="section-title">Visit Us or <span>Enroll Now</span></h2>
+    <div class="contact-grid" style="margin-top:48px;">
+      <div class="fade-in">
+        <div class="contact-info-items">
+          <div class="contact-info-item"><div class="contact-icon">📍</div><div><strong>Our Location</strong><p>Adjacent Macaulay Junction, Opposite Community Secondary School, Bayeku, Ikorodu, Lagos</p></div></div>
+          <div class="contact-info-item"><div class="contact-icon">📞</div><div><strong>Phone Numbers</strong><p><a href="tel:+2348025050576">+2348025050576</a> / <a href="tel:+2349021232348">+2349021232348</a></p></div></div>
+          <div class="contact-info-item"><div class="contact-icon">✉️</div><div><strong>Email Address</strong><a href="mailto:ikoroducec@gmail.com">ikoroducec@gmail.com</a></div></div>
+          <div class="contact-info-item"><div class="contact-icon">🕐</div><div><strong>Operating Hours</strong><p>Monday – Saturday: 7:00 AM – 6:00 PM</p></div></div>
+        </div>
+        <div class="contact-btns">
+          <a href="tel:+2348025050576" class="btn btn-primary">📞 Call Now</a>
+          <a href="https://wa.me/2348025050576" class="btn btn-wa">💬 WhatsApp Chat</a>
+        </div>
+        <div class="map-wrap">
+          <strong style="color:#1A1A1A;">Adjacent Macaulay Junction</strong>
+          <p>Opposite Community Secondary School, Bayeku, Ikorodu, Lagos</p>
+          <a href="https://maps.google.com/?q=Ikorodu+Bayeku+Macaulay+Junction+Lagos" target="_blank" class="map-placeholder-link">📍 Open in Google Maps</a>
+        </div>
+      </div>
+      <div class="fade-in">
+        <div class="enroll-form">
+          <h3>Enroll Today</h3>
+          <p>Fill in your details and we'll get back to you within 24 hours.</p>
+          <div class="form-group"><label>Full Name *</label><input type="text" placeholder="e.g. Adewale Johnson" /></div>
+          <div class="form-group"><label>Phone Number *</label><input type="tel" placeholder="e.g. 08012345678" /></div>
+          <div class="form-group"><label>Email Address</label><input type="email" placeholder="e.g. you@email.com" /></div>
+          <div class="form-group"><label>Programme of Interest *</label>
+            <select>
+              <option value="">Select a programme...</option>
+              <optgroup label="Core Programs"><option>JAMB</option><option>WAEC</option><option>NECO</option><option>GCE</option><option>Post-UTME</option></optgroup>
+              <optgroup label="Advanced Programs"><option>JUPEB</option><option>IJMB</option><option>SAT</option><option>TOEFL</option><option>ICAN</option></optgroup>
+            </select>
+          </div>
+          <div class="form-group"><label>Preferred Mode</label>
+            <select><option>Physical Classes</option><option>E-Learning (Online)</option><option>Hybrid (Both)</option></select>
+          </div>
+          <button class="btn btn-primary form-submit" onclick="handleSubmit(event)">✅ Submit Enrollment Request</button>
+          <p style="font-size:12px;color:#6B6B6B;margin-top:12px;text-align:center;">Or call: <a href="tel:+2348025050576" style="color:#8B1A1A;font-weight:700;">+2348025050576</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="final-cta">
+  <div class="container">
+    <h2>Start Your Journey to<br/>Academic Success Today</h2>
+    <p>Join 500+ students who chose ICEC and passed their exams with confidence.</p>
+    <div class="final-btns">
+      <a href="#contact" class="btn btn-gold" style="font-size:17px;padding:18px 40px;">✏️ Enroll Now</a>
+      <a href="tel:+2348025050576" class="btn btn-outline" style="font-size:17px;padding:18px 40px;">📞 Call Now</a>
+      <a href="https://wa.me/2348025050576" class="btn btn-wa" style="font-size:17px;padding:18px 40px;">💬 WhatsApp Chat</a>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <strong>IKORODU CONTINUING EDUCATION CENTRE</strong>
+        <em>ICEC — A New Dawn in Learning</em>
+        <p>The best coaching centre in Ikorodu, Lagos. Preparing students for JAMB, WAEC, NECO, GCE, Post-UTME and more. Physical and e-learning available.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Programs</h5>
+        <ul>
+          <li><a href="#programs">JAMB Coaching</a></li><li><a href="#programs">WAEC Coaching</a></li>
+          <li><a href="#programs">NECO Coaching</a></li><li><a href="#programs">GCE Coaching</a></li>
+          <li><a href="#programs">Post-UTME Prep</a></li><li><a href="#programs">JUPEB / IJMB</a></li>
+          <li><a href="#programs">SAT / TOEFL / ICAN</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+2348025050576">+2348025050576</a></li>
+          <li><a href="tel:+2349021232348">+2349021232348</a></li>
+          <li><a href="mailto:ikoroducec@gmail.com">ikoroducec@gmail.com</a></li>
+          <li><a href="https://wa.me/2348025050576">WhatsApp Us</a></li>
+          <li><a href="#contact">Bayeku, Ikorodu, Lagos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ikorodu Continuing Education Centre (ICEC). All rights reserved.</p>
+      <p>Made with <span>♥</span> for students in Ikorodu, Lagos</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<a href="https://wa.me/2348025050576" class="wa-float" target="_blank" title="Chat on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<div class="sticky-enroll"><a href="#contact">Enroll Now</a></div>
+<div class="popup-overlay" id="exitPopup">
+  <div class="popup-box">
+    <button class="popup-close" onclick="closePopup()">✕</button>
+    <div class="popup-badge">🎁 Limited Offer</div>
+    <h2>Wait! Get a Free Consultation</h2>
+    <p>Book a <strong>FREE 15-minute consultation</strong> with our academic advisors before you go!</p>
+    <a href="https://wa.me/2348025050576?text=Hi%20ICEC%2C%20I%20want%20a%20free%20consultation" class="btn btn-wa" target="_blank">💬 Book Free Consultation</a>
+    <a href="tel:+2348025050576" class="btn btn-primary">📞 Call Us Now</a>
+    <p style="font-size:12px;margin-top:12px;"><a href="#" onclick="closePopup()" style="color:#6B6B6B;">No thanks, I'll pass</a></p>
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>40)});
+  function toggleMenu(){document.getElementById('mobileMenu').classList.toggle('open')}
+  const observer=new IntersectionObserver((e)=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:0.12});
+  document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+  function showTab(tab,btn){
+    document.getElementById('tab-core').style.display=tab==='core'?'grid':'none';
+    document.getElementById('tab-advanced').style.display=tab==='advanced'?'grid':'none';
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+  function toggleFaq(el){el.parentElement.classList.toggle('open')}
+  const target=new Date();target.setDate(target.getDate()+14);
+  function updateCountdown(){
+    const diff=target-new Date();
+    if(diff<=0)return;
+    document.getElementById('cd-days').textContent=String(Math.floor(diff/86400000)).padStart(2,'0');
+    document.getElementById('cd-hours').textContent=String(Math.floor((diff%86400000)/3600000)).padStart(2,'0');
+    document.getElementById('cd-mins').textContent=String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
+    document.getElementById('cd-secs').textContent=String(Math.floor((diff%60000)/1000)).padStart(2,'0');
+  }
+  updateCountdown();setInterval(updateCountdown,1000);
+  function animateCounter(el){
+    const t=parseInt(el.getAttribute('data-target'));
+    const suffix=el.closest('.stat-item').querySelector('.stat-label').textContent.includes('%')?'%':'+';
+    let c=0;const inc=t/60;
+    const timer=setInterval(()=>{c=Math.min(c+in
